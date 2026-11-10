@@ -1,7 +1,7 @@
 # Chalkday — Brand identity
 
 **Slug:** `chalkday` · **Tagline:** A weekly specials and promo calendar for independent restaurants and cafes.
-**Status:** Early access. Checkout not live; founding list only. No payments processed.
+**Status:** Live. Payments processed by Gumroad (Monthly or Quarterly).
 
 ## Positioning
 Single-location restaurants, cafes, bars, and trucks that want a steady specials habit without a marketing agency.
@@ -43,15 +43,15 @@ Warm, brisk, kitchen-smart. Short like a pre-shift brief; a little chalkboard ch
 ## Logo
 `static/logo.svg` — monogram mark on a rounded tile in the primary accent. Minimum size 24px; clear space ≈ 25% of the mark height. Use on light backgrounds; on dark, keep the tile as-is.
 
-## Pricing (planned terms; not live)
-- **4-week board** — $19 first 4 weeks, then $29 / 4 weeks unless cancelled
-- **12-week season** — $49 first 12 weeks, then $79 / 12 weeks unless cancelled
+## Pricing
+- **Monthly** — $29 / month. Renews automatically. Cancel anytime from your Gumroad library.
+- **Quarterly** — $79 every 3 months. Renews automatically. Cancel anytime from your Gumroad library.
 
 ## Do
 - Talk like a kitchen: mise, pre-shift, 86’d.
 - Remind owners to cost every special and follow health code.
-- Show intro **and** renewal prices before any future charge.
-- Label the founding list as “no charge today”.
+- Show Monthly and Quarterly prices, plus the renewal sentence, before checkout.
+- Save the customer’s email before sending them to Gumroad.
 - Keep the disclaimer visible near every plan.
 
 ## Don’t
