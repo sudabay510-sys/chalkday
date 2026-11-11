@@ -59,3 +59,24 @@ Warm, brisk, kitchen-smart. Short like a pre-shift brief; a little chalkboard ch
 - Promise more covers or sales.
 - Fake testimonials, user counts, stats, or press logos.
 - Countdown timers, “spots left”, or other urgency/scare copy.
+
+
+## Identity refresh (Nov 2026)
+
+Visual layer only (`static/identity.css`, `static/logo.svg`, Google Fonts URL). Quiz questions, plan generation, routes, pricing, checkout/unlock, and safety notes are unchanged.
+
+- **Concept:** Chalkboard menu + kitchen ticket rail. The specials board and the ticket rail, made into a product: the quiz prints like a kitchen ticket and the plan is written on a framed chalkboard.
+- **Type:** Shrikhand (display) / Karla (body)
+- **Voice:** A sharp sous-chef at pre-shift: short, warm, practical, zero hype.
+- **Persona (design assumption, not research):** Tony, owner-chef of a 40-seat cafe (assumption): Great ideas, no time. Specials get decided at 4 p.m. and posted never.
+
+| Color | Hex |
+|---|---|
+| Chalk paper | `#F4F1E8` |
+| Slate | `#22302B` |
+| Frame wood | `#8B5E34` |
+| Butter | `#F7D774` |
+| Tomato | `#C2431C` |
+| Tomato chalk | `#FF9B7A` |
+
+Full brand guide, persona, and journey: `quiz-to-plan-redesign/products/chalkday/brand.html`.

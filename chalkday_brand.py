@@ -108,7 +108,7 @@ BRAND = {
     "checkout_url": "https://solvfix.gumroad.com/l/pvjow",
     "disclaimer_short": "Menu-planning ideas only. No sales guarantees. Follow your local food-safety code. No nutrition or health claims.",
     "disclaimer_long": "Chalkday provides general menu-planning and promotional ideas for food businesses. It does not guarantee covers, sales, or profit, is not accounting advice, and does not make nutrition or health claims. Follow your local health department’s food-safety rules for every dish. Payments are processed by Gumroad, not on this site.",
-    "font_url": "https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Work+Sans:wght@400;500;700&display=swap",
+    "font_url": "https://fonts.googleapis.com/css2?family=Shrikhand&family=Karla:wght@400;500;700;800&display=swap",
     "fonts": ("Caveat Brush", "Work Sans"),
     "questions": Q, "generate_plan": plan,
     "voice": "Warm, brisk, kitchen-smart. Short like a pre-shift brief; a little chalkboard charm.",
