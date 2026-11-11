@@ -1,0 +1,22 @@
+/* chalkday layout compositions (phase 2). Loaded after identity.css. */
+.cd-rail-wrap{position:relative;padding-top:.5rem}
+.cd-rail{height:14px;border-radius:7px;background:linear-gradient(#C9CFCC,#8E9692);box-shadow:0 2px 3px rgba(0,0,0,.4)}
+.cd-tickets{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:.75rem;margin-top:-4px}
+.cd-ticket{background:#FFFFFF;color:var(--ink);padding:1rem .9rem 1.4rem;border-top:6px solid var(--accent);box-shadow:0 8px 16px rgba(0,0,0,.35);font-size:.92rem;-webkit-mask:conic-gradient(from -45deg at bottom,#0000,#000 1deg 89deg,#0000 90deg) bottom/16px 8px repeat-x,linear-gradient(#000 0 0) top/100% calc(100% - 8px) no-repeat;mask:conic-gradient(from -45deg at bottom,#0000,#000 1deg 89deg,#0000 90deg) bottom/16px 8px repeat-x,linear-gradient(#000 0 0) top/100% calc(100% - 8px) no-repeat}
+.cd-ticket:nth-child(even){transform:rotate(1.5deg)}.cd-ticket:nth-child(odd){transform:rotate(-1deg)}
+.cd-ticket p{margin:0}
+.cd-tno{font:800 .8rem var(--font-body);letter-spacing:.1em;color:var(--accent);border-bottom:1px dashed #B9B2A0;padding-bottom:.3rem;margin-bottom:.4rem!important}
+.cd-fade{color:#D9D6CC;font-size:.85rem;margin-top:1rem;font-style:italic}
+.cd-menu .journey-grid{display:block;background:var(--ink);color:#F4F1E8;border:12px solid #8B5E34;padding:1.5rem 2rem;border-radius:4px}
+.cd-menu .journey-card{background:transparent;border:0;border-bottom:1px dashed rgba(244,241,232,.3);border-radius:0;display:grid;grid-template-columns:3rem 1fr 1.4fr;gap:1rem;padding:1rem 0;margin:0}
+.cd-menu .journey-card h3{font-family:'Shrikhand',serif;font-weight:400;color:#F7D774;margin:0}
+.cd-menu .journey-card p{margin:0;color:#F4F1E8}.cd-menu .journey-card .muted{color:#D9D6CC}
+.cd-menu .journey-card p:last-child{grid-column:3}
+.cd-qh{display:flex;justify-content:space-between;font:800 .85rem var(--font-body);letter-spacing:.12em;border-bottom:2px dashed #B9B2A0;padding-bottom:.5rem;margin-bottom:.75rem}
+.page-quiz .tiny.muted{display:none}
+.cd-board{background:var(--ink);color:#F4F1E8;border:14px solid #8B5E34;border-radius:6px;padding:2rem;margin-bottom:1.5rem}
+.cd-board h1{color:#F4F1E8}.cd-board .lede,.cd-board .muted{color:#D9D6CC}.cd-board .eyebrow{color:#F7D774}
+.page-results .plan-preview,.page-results .plan-full{display:grid;gap:1rem;grid-template-columns:repeat(auto-fit,minmax(250px,1fr))}
+.page-results .plan-preview>h2,.page-results .plan-full>h2,.page-results .plan-full>p{grid-column:1/-1}
+.cd-tk{margin:0;border-left:0!important;border-top:6px solid var(--accent)!important}
+@media (max-width:700px){.cd-menu .journey-card{grid-template-columns:2.5rem 1fr}.cd-menu .journey-card p,.cd-menu .journey-card p:last-child{grid-column:2}}
