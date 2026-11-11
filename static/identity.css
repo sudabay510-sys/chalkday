@@ -1,0 +1,38 @@
+/* Chalkday identity layer, Nov 2026 refresh: Chalkboard menu + kitchen ticket rail. Loaded after brand.css; visual only. */
+:root{--bg:#F4F1E8;--bg-alt:#EAE5D6;--card:#FFFFFF;--ink:#22302B;--muted:#565F59;--line:#D9D4C6;--accent:#C2431C;--accent-2:#A13715;--on-accent:#FFFFFF;--hi:#F7D774;--radius:10px;--focus:#C2431C;
+--font-display:'Shrikhand', Georgia, serif;--font-body:'Karla', system-ui, sans-serif;--tracking:0;--cta-band-bg:#22302B;--cta-band-ink:#F4F1E8;--cta-band-btn:#F7D774;--cta-band-btn-ink:#22302B;
+--shadow-card:0 14px 34px rgba(0,0,0,.10);--shadow-btn:none}
+body{font-family:var(--font-body);background:var(--bg);color:var(--ink)}
+.skip:focus{background:var(--card);color:var(--ink);outline:3px solid var(--focus)}
+.btn:focus-visible,.choice:focus-within,a:focus-visible,.input:focus{outline:3px solid var(--focus);outline-offset:2px}
+.choice:has(input:checked){border-color:var(--accent);box-shadow:0 0 0 2px var(--accent) inset}
+.choice input{accent-color:var(--accent);width:1.15rem;height:1.15rem;flex:none}
+.choice{min-height:3.25rem}
+.btn{min-height:2.75rem}
+.nav a.btn-primary,.nav a.btn-primary:hover{color:var(--on-accent)}
+.safety{border-left-width:6px;border-left-style:solid}
+@media (max-width:560px){.choice{padding:.9rem 1rem}.quiz-q{font-size:1.45rem}}
+
+h1,h2{font-weight:400;letter-spacing:0}h3{font-family:var(--font-body);font-weight:800}
+.hero{background:var(--ink);color:#F4F1E8;border:14px solid #8B5E34;border-radius:6px;margin:1rem auto;width:min(1180px,96vw);box-shadow:inset 0 0 60px rgba(0,0,0,.35)}
+.hero .lede,.hero .muted,.hero .tiny{color:#D9D6CC}
+.hero h1{color:#F4F1E8}.hero .eyebrow{color:#F7D774}
+.hero a:not(.btn){color:#F7D774}
+.hero .btn-primary{background:#F7D774;color:var(--ink)}
+.hero .btn-ghost{color:#F4F1E8;border-color:#F4F1E8}
+.hero-card{background:#FFFFFF;color:var(--ink);border:0;border-radius:2px;transform:rotate(1.2deg);box-shadow:0 10px 24px rgba(0,0,0,.3)}
+.hero-card .muted,.hero-card .card-fade{color:#565F59}
+.page-quiz .quiz-shell .wrap.narrow{background:#FFFFFF;padding:1.75rem 1.5rem 2.25rem;border-top:6px solid var(--accent);box-shadow:0 10px 24px rgba(34,48,43,.12);margin-top:1rem;-webkit-mask:linear-gradient(#000 0 0) top/100% calc(100% - 12px) no-repeat,conic-gradient(from -45deg at bottom,#0000,#000 1deg 89deg,#0000 90deg) bottom/24px 12px repeat-x;mask:linear-gradient(#000 0 0) top/100% calc(100% - 12px) no-repeat,conic-gradient(from -45deg at bottom,#0000,#000 1deg 89deg,#0000 90deg) bottom/24px 12px repeat-x}
+.choices{gap:0}
+.choice{border:0;border-bottom:1px dashed #B9B2A0;border-radius:0}
+.choice:has(input:checked){background:#FDF3C9;box-shadow:inset 4px 0 0 var(--accent)}
+.progress{background:repeating-linear-gradient(90deg,#D9D4C6 0 6px,transparent 6px 10px)}.progress-bar{background:var(--accent)}
+.plan-section{background:#FFFFFF;border:0;border-left:6px solid #F7D774;border-radius:2px;box-shadow:0 6px 16px rgba(34,48,43,.08)}
+.plan-preview>h2,.plan-full>h2{background:var(--ink);color:#F4F1E8;display:inline-block;padding:.3rem 1rem;border:6px solid #8B5E34}
+.step-num,.journey-step{background:#F7D774;color:var(--ink)}
+.btn{border-radius:8px}
+.lock-banner{background:var(--ink);color:#F4F1E8;border:10px solid #8B5E34}
+.lock-banner a:not(.btn){color:#F7D774}
+.lock-banner .btn-ghost{color:#F4F1E8;border-color:#F4F1E8}
+.lock-banner .btn-primary{background:#F7D774;color:var(--ink)}
+.safety{background:#FDF3C9;border-color:#8B5E34;border-left-color:var(--accent)}
